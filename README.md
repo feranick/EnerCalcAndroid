@@ -1,4 +1,4 @@
 EnerCalcAndroid
 ===============
 
-Energy Calculator for Android)
+Energy Calculator for Android
