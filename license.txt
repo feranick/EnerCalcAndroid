@@ -1,0 +1,5 @@
+Every file in the feranick/EnerCalcAndroid GitHub repository (including folders and subfolder) is released under the GNU Public License (GPL) v. 3.
+
+Details of the license can be found here:
+
+http://www.gnu.org/licenses/gpl.txt
