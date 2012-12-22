@@ -18,5 +18,7 @@
     <string name="resetBtn">Reset</string>
     <string name="edithz">MHz</string>
     <string name="viewhz">MHz</string>
+    <string name="editry">Ry</string>
+    <string name="viewry">Ry</string>
 	
 </resources>

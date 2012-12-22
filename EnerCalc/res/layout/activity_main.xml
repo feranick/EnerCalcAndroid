@@ -4,43 +4,23 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity" >
 
-    <EditText
-        android:id="@+id/editJ"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:ems="10"
-        android:hint="@string/editJ"
-        android:onClick="clearfield" />
 
     <EditText
         android:id="@+id/editeV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/editJ"
         android:ems="10" 
         android:onClick="clearfield"
         android:inputType="numberDecimal"
         android:hint="@string/editeV" />
 
-    <EditText
-        android:id="@+id/editK"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_below="@+id/editeV"
-        android:ems="10"
-        android:onClick="clearfield"
-        android:inputType="numberDecimal"
-        android:hint="@string/editK" />
 
     <EditText
         android:id="@+id/editwn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
-        android:layout_below="@+id/editK"
+        android:layout_below="@+id/editeV"
         android:ems="10"
         android:onClick="clearfield"
         android:inputType="numberDecimal"
@@ -58,33 +38,65 @@
         android:hint="@string/editnm" />
     
     <EditText
-        android:id="@+id/edithz"
+        android:id="@+id/editJ"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/editnm"
         android:ems="10"
-        android:onClick="clearfield"
-        android:hint="@string/edithz" />
-
-    <Button
-        android:id="@+id/convBtn"
+        android:hint="@string/editJ"
+        android:onClick="clearfield" />
+    
+    <EditText
+        android:id="@+id/editK"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/viewJ"
-        android:layout_toRightOf="@+id/viewwn"
-        android:onClick="convert"
-        android:text="@string/convBtn" />
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editJ"
+        android:ems="10"
+        android:onClick="clearfield"
+        android:inputType="numberDecimal"
+        android:hint="@string/editK" />
+    
+    <EditText
+        android:id="@+id/edithz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editK"
+        android:ems="10"
+        android:onClick="clearfield"
+        android:hint="@string/edithz" />
+    
+    <EditText
+        android:id="@+id/editry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/edithz"
+        android:ems="10"
+        android:onClick="clearfield"
+        android:inputType="numberDecimal"
+        android:hint="@string/editry" />
 
     <Button
         android:id="@+id/resetBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/viewwn"
+        android:layout_above="@+id/viewK"
         android:layout_alignRight="@+id/convBtn"
         android:onClick="reset"
         android:text="@string/resetBtn" />
 
+    <TextView
+        android:id="@+id/viewry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editry"
+        android:layout_alignBottom="@+id/editry"
+        android:layout_alignLeft="@+id/viewnm"
+        android:text="@string/viewry" />
+    
     <TextView
         android:id="@+id/viewhz"
         android:layout_width="wrap_content"
@@ -138,5 +150,15 @@
         android:layout_alignBottom="@+id/editeV"
         android:layout_alignLeft="@+id/viewJ"
         android:text="@string/vieweV" />
+
+    <Button
+        android:id="@+id/convBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editnm"
+        android:layout_marginLeft="11dp"
+        android:layout_toRightOf="@+id/viewwn"
+        android:onClick="convert"
+        android:text="@string/convBtn" />
 
 </RelativeLayout>

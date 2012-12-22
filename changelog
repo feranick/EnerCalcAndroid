@@ -1,4 +1,10 @@
+Version 20121222
+-----------------
+Code cleanup
+Revised interface (eV, 1/cm, nm) first
+Added Rydberg 
+
+
 Version 20121125
 ---------------------
-
 First Public Release.
