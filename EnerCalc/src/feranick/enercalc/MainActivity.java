@@ -1,4 +1,4 @@
-package com.example.enercalc;
+package feranick.enercalc;
 
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
