@@ -6,12 +6,14 @@ import java.text.NumberFormat;
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class MainActivity extends Activity {
 
-	
+	String version = "EnerCalc - v. 20130703a\nby feranick";
 	double a=11604;
 	double b=8065.54;
 	double c=1.6021773e-19;
@@ -43,6 +45,24 @@ public class MainActivity extends Activity {
 		return true;
 	}
 	
+	
+	/** Called when a menu item in the menu is clicked. */
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+	 switch (item.getItemId()) {
+	  case R.id.menuabout:
+	   Toast.makeText(this, version, Toast.LENGTH_SHORT).show();
+	   return true;
+	 
+	  default: 
+	   if (!item.hasSubMenu()) {
+	    return true;
+	   }
+	   break;
+	 }
+	  
+	 return false;
+	}
 		
 	public void convert(View view) {
 		EditText editJ = (EditText) findViewById(R.id.editJ);

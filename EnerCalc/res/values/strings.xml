@@ -23,5 +23,6 @@
     <string name="incBtn">+</string>
     <string name="decBtn">-</string>
     <string name="editinc">Increment</string>
+	<string name="menuabout">About</string>
 	
 </resources>
