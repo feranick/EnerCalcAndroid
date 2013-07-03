@@ -13,7 +13,7 @@ import android.widget.Toast;
 
 public class MainActivity extends Activity {
 
-	String version = "EnerCalc - v. 20130703a\nby feranick";
+	String version = "EnerCalc - v. 1.0.1-20130703b\nby feranick";
 	double a=11604;
 	double b=8065.54;
 	double c=1.6021773e-19;

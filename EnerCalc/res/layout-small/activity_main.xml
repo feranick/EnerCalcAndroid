@@ -144,27 +144,17 @@
         android:id="@+id/convBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignRight="@+id/editinc"
-        android:layout_toRightOf="@+id/viewwn"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editry"
         android:onClick="convert"
         android:text="@string/convBtn" />
-
-    <Button
-        android:id="@+id/resetBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/viewnm"
-        android:layout_alignLeft="@+id/convBtn"
-        android:layout_alignRight="@+id/convBtn"
-        android:onClick="reset"
-        android:text="@string/resetBtn" />
 
     <Button
         android:id="@+id/decBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/viewK"
-        android:layout_toRightOf="@+id/viewwn"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
         android:onClick="dec"
         android:text="@string/decBtn" />
 
@@ -172,24 +162,31 @@
         android:id="@+id/editinc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/decBtn"
-        android:layout_alignBottom="@+id/viewry"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/resetBtn"
+        android:layout_toRightOf="@+id/incBtn"
         android:ems="10"
         android:hint="@string/editinc"
         android:inputType="numberDecimal"
-        android:onClick="clearfield" >
-
-        <requestFocus />
-    </EditText>
+        android:onClick="clearfield" />
 
     <Button
         android:id="@+id/incBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/decBtn"
-        android:layout_alignBottom="@+id/decBtn"
-        android:layout_alignRight="@+id/resetBtn"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/decBtn"
         android:onClick="inc"
         android:text="@string/incBtn" />
+
+    <Button
+        android:id="@+id/resetBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/convBtn"
+        android:layout_alignBottom="@+id/convBtn"
+        android:layout_toLeftOf="@+id/viewry"
+        android:onClick="reset"
+        android:text="@string/resetBtn" />
 
 </RelativeLayout>

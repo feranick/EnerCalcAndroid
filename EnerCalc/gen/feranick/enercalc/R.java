@@ -20,13 +20,13 @@ public final class R {
         public static final int editK=0x7f070004;
         public static final int editeV=0x7f070000;
         public static final int edithz=0x7f070005;
-        public static final int editinc=0x7f070012;
+        public static final int editinc=0x7f07000f;
         public static final int editnm=0x7f070002;
         public static final int editry=0x7f070006;
         public static final int editwn=0x7f070001;
-        public static final int incBtn=0x7f070010;
+        public static final int incBtn=0x7f070012;
         public static final int menuabout=0x7f070013;
-        public static final int resetBtn=0x7f07000f;
+        public static final int resetBtn=0x7f070010;
         public static final int viewJ=0x7f07000d;
         public static final int viewK=0x7f07000c;
         public static final int vieweV=0x7f07000b;
