@@ -13,14 +13,14 @@ import android.widget.Toast;
 
 public class MainActivity extends Activity {
 
-	String version = "EnerCalc - v. 1.0.1-20130703b\nby feranick";
-	double a=11604;
-	double b=8065.54;
-	double c=1.6021773e-19;
-	double d=1239.8;
-	double sl=2.99792458e17;
-	double hzf=1e9;
-	double ryc = 13.605692; //eV
+	static final String version = "EnerCalc - v. 1.0.2-20130714a\nby feranick";
+	static final double a=11604;
+	static final double b=8065.54;
+	static final double c=1.6021773e-19;
+	static final double d=1239.8;
+	static final double sl=2.99792458e17;
+	static final double hzf=1e9;
+	static final double ryc = 13.605692; //eV
 	
 	
 	@Override
@@ -247,52 +247,52 @@ public class MainActivity extends Activity {
 		DecimalFormat dec3 = new DecimalFormat("0.000");
 		
 		if(editeV.hasFocus() && editeV.getText().toString().compareTo("")!=0)
-			{double d = Double.valueOf(editeV.getText().toString()) + incr;
-			editeV.setText(dec2.format(d));
+			{//double d = Double.valueOf(editeV.getText().toString()) + incr;
+			editeV.setText(dec2.format(Double.valueOf(editeV.getText().toString()) + incr));
 			convert(editeV);}
 		
 		if(editwn.hasFocus() && editwn.getText().toString().compareTo("")!=0)
-			{double d = Double.valueOf(editwn.getText().toString()) + incr;
-			editwn.setText(dec2.format(d));
+			{//double d = Double.valueOf(editwn.getText().toString()) + incr;
+			editwn.setText(dec2.format(Double.valueOf(editwn.getText().toString()) + incr));
 			convert(editwn);}
 		
 		if(editnm.hasFocus() && editnm.getText().toString().compareTo("")!=0)
-			{double d = Double.valueOf(editnm.getText().toString()) + incr;
-			editnm.setText(dec2.format(d));
+			{//double d = Double.valueOf(editnm.getText().toString()) + incr;
+			editnm.setText(dec2.format(Double.valueOf(editnm.getText().toString()) + incr));
 			convert(editnm);}
 		
 		if(editJ.hasFocus() && editJ.getText().toString().compareTo("")!=0)
-			{double d = Double.valueOf(editJ.getText().toString()) + incr;
-			editJ.setText(nF.format(d));
+			{//double d = Double.valueOf(editJ.getText().toString()) + incr;
+			editJ.setText(nF.format(Double.valueOf(editJ.getText().toString()) + incr));
 			convert(editJ);}
 		
 		if(editK.hasFocus() && editK.getText().toString().compareTo("")!=0)
-			{double d = Double.valueOf(editK.getText().toString()) + incr;
-			editK.setText(dec2.format(d));
+			{//double d = Double.valueOf(editK.getText().toString()) + incr;
+			editK.setText(dec2.format(Double.valueOf(editK.getText().toString()) + incr));
 			convert(editK);}
 		
 		if(edithz.hasFocus() && edithz.getText().toString().compareTo("")!=0)
-			{double d = Double.valueOf(edithz.getText().toString()) + incr;
-			edithz.setText(nF.format(d));
+			{//double d = Double.valueOf(edithz.getText().toString()) + incr;
+			edithz.setText(nF.format(Double.valueOf(edithz.getText().toString()) + incr));
 			convert(edithz);}
 		
 		if(editry.hasFocus() && editry.getText().toString().compareTo("")!=0)
-			{double d = Double.valueOf(editry.getText().toString()) + incr;
-			editry.setText(dec3.format(d));
+			{//double d = Double.valueOf(editry.getText().toString()) + incr;
+			editry.setText(dec3.format(Double.valueOf(editry.getText().toString()) + incr));
 			convert(editry);}
 		
 	}
 	
 	public void inc(View view)
 		{EditText editinc = (EditText) findViewById(R.id.editinc);
-		double incr = Double.valueOf(editinc.getText().toString());
-		change(view, incr);	
+		//double incr = Double.valueOf(editinc.getText().toString());
+		change(view, Double.valueOf(editinc.getText().toString()));	
 		}
 	
 	public void dec(View view)
 		{EditText editinc = (EditText) findViewById(R.id.editinc);
-		double incr = Double.valueOf(editinc.getText().toString());
-		change(view, -1.00*incr);	
+		//double incr = Double.valueOf(editinc.getText().toString());
+		change(view, -1.00*Double.valueOf(editinc.getText().toString()));	
 		}
 	
 }
