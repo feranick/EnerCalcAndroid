@@ -1,3 +1,13 @@
+Version 1.1-20140508a
+----------------------
+Fixed conversion to Hz. It now uses THz, rather than MHz.
+
+
+Version 1.0.3
+--------------
+Added support for Android 4.3 and 4.4 (KitKat)
+
+
 Version 1.0.2-20130714a
 -----------------------
 Improved responsiveness

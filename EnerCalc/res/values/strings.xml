@@ -16,8 +16,8 @@
     <string name="viewnm">nm</string>
     <string name="convBtn">Convert</string>
     <string name="resetBtn">Reset</string>
-    <string name="edithz">MHz</string>
-    <string name="viewhz">MHz</string>
+    <string name="edithz">THz</string>
+    <string name="viewhz">THz</string>
     <string name="editry">Ry</string>
     <string name="viewry">Ry</string>
     <string name="incBtn">+</string>

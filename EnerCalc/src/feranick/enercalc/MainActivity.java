@@ -13,13 +13,13 @@ import android.widget.Toast;
 
 public class MainActivity extends Activity {
 
-	static final String version = "EnerCalc - v. 1.0.2-20130714a\nby feranick";
+	static final String version = "EnerCalc - v. 1.1-20140508a\nby feranick";
 	static final double a=11604;
 	static final double b=8065.54;
 	static final double c=1.6021773e-19;
 	static final double d=1239.8;
 	static final double sl=2.99792458e17;
-	static final double hzf=1e9;
+	static final double hzf=1e12;
 	static final double ryc = 13.605692; //eV
 	
 	
@@ -81,7 +81,7 @@ public class MainActivity extends Activity {
 		String K = "";
 		String wn = "";
 		String nm = "";
-		String mhz = "";
+		String Thz = "";
 		String ry = "";
 
 		
@@ -94,7 +94,7 @@ public class MainActivity extends Activity {
 			K = dec2.format(eVd*a);
 			wn = dec2.format(eVd*b);
 			nm = dec2.format(d/eVd);
-			mhz = nF.format((sl/(d/eVd))/hzf);
+			Thz = dec2.format((sl/(d/eVd))/hzf);
 			ry = dec3.format(eVd/ryc);
 			}
 		
@@ -106,7 +106,7 @@ public class MainActivity extends Activity {
 			K = dec2.format(eVd*a);
 			wn = dec2.format(eVd*b);
 			nm = dec2.format(d/eVd);
-			mhz = nF.format((sl/(d/eVd))/hzf);	
+			Thz = dec2.format((sl/(d/eVd))/hzf);	
 			ry = dec3.format(eVd/ryc);
 			}
 		
@@ -119,7 +119,7 @@ public class MainActivity extends Activity {
 			eV = dec2.format(eVd);
 			wn = dec2.format(eVd*b);
 			nm = dec2.format(d/eVd);
-			mhz = nF.format((sl/(d/eVd))/hzf);
+			Thz = dec2.format((sl/(d/eVd))/hzf);
 			ry = dec3.format(eVd/ryc);
 			}
 	    
@@ -132,7 +132,7 @@ public class MainActivity extends Activity {
 			eV = dec2.format(eVd);
 			wn = dec2.format(wnd);
 			nm = dec2.format(d/eVd);
-			mhz = nF.format((sl/(d/eVd))/hzf);
+			Thz = dec2.format((sl/(d/eVd))/hzf);
 			ry = dec3.format(eVd/ryc);
 			}
 	    
@@ -145,13 +145,13 @@ public class MainActivity extends Activity {
 			eV = dec2.format(eVd);
 			wn = dec2.format(eVd*b);
 			nm = dec2.format(nmd);
-			mhz = nF.format((sl/nmd)/hzf);
+			Thz = dec2.format((sl/nmd)/hzf);
 			ry = dec3.format(eVd/ryc);
 			}
 		
 	    if(edithz.hasFocus() && edithz.getText().toString().compareTo("")!=0)
-			{double mhzd = Double.valueOf(edithz.getText().toString());
-			double nmd = sl/(mhzd*1e4);
+			{double Ghzd = Double.valueOf(edithz.getText().toString());
+			double nmd = sl/(Ghzd*1e12);
 			double eVd = d/nmd;
 			
 			J = nF.format(eVd*c);
@@ -159,7 +159,7 @@ public class MainActivity extends Activity {
 			eV = dec2.format(eVd);
 			wn = dec2.format(eVd*b);
 			nm = dec2.format(nmd);
-			mhz = nF.format(mhzd);
+			Thz = dec2.format(Ghzd);
 			ry = dec3.format(eVd/ryc);
 			}
 	    
@@ -172,7 +172,7 @@ public class MainActivity extends Activity {
 			K = dec2.format(eVd*a);
 			wn = dec2.format(eVd*b);
 			nm = dec2.format(d/eVd);
-			mhz = nF.format((sl/(d/eVd))/hzf);
+			Thz = dec2.format((sl/(d/eVd))/hzf);
 			ry = dec3.format(ryd);
 			}
 	    
@@ -181,7 +181,7 @@ public class MainActivity extends Activity {
 	    editK.setText(K);
 	    editwn.setText(wn);
 	    editnm.setText(nm);
-	    edithz.setText(mhz);
+	    edithz.setText(Thz);
 	    editry.setText(ry);
 	    
 	}
