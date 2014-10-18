@@ -161,7 +161,7 @@
 
     <Button
         android:id="@+id/decBtn"
-        android:layout_width="wrap_content"
+        android:layout_width="50dp"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/viewK"
         android:layout_toRightOf="@+id/viewwn"
@@ -184,7 +184,7 @@
 
     <Button
         android:id="@+id/incBtn"
-        android:layout_width="wrap_content"
+        android:layout_width="50dp"
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/decBtn"
         android:layout_alignBottom="@+id/decBtn"
