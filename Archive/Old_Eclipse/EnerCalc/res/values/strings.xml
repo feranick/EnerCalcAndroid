@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EnerCalc</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="editJ">J</string>
+    <string name="viewJ">J</string>
+    <string name="editeV">eV</string>
+    <string name="vieweV">eV</string>
+    <string name="editK">K</string>
+    <string name="viewK">K</string>
+    <string name="editwn">1/cm</string>
+    <string name="viewwn">1/cm</string>
+    <string name="editnm">nm</string>
+    <string name="viewnm">nm</string>
+    <string name="convBtn">Conv</string>
+    <string name="resetBtn">Reset</string>
+    <string name="edithz">THz</string>
+    <string name="viewhz">THz</string>
+    <string name="editry">Ry</string>
+    <string name="viewry">Ry</string>
+    <string name="incBtn">+</string>
+    <string name="decBtn">-</string>
+    <string name="editinc">Increment</string>
+	<string name="menuabout">About</string>
+	
+</resources>

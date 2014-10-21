@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="/Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/res" >
+            <file
+                name="ic_launcher"
+                path="/Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/res/drawable-hdpi/ic_launcher.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/res/drawable-ldpi/ic_launcher.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/res/drawable-mdpi/ic_launcher.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/res/drawable-xhdpi/ic_launcher.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="activity_main"
+                path="/Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/res/layout/activity_main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_main"
+                path="/Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/res/layout-large/activity_main.xml"
+                qualifiers="large-v4"
+                type="layout" />
+            <file
+                name="activity_main"
+                path="/Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/res/layout-normal/activity_main.xml"
+                qualifiers="normal-v4"
+                type="layout" />
+            <file
+                name="activity_main"
+                path="/Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/res/layout-small/activity_main.xml"
+                qualifiers="small-v4"
+                type="layout" />
+            <file
+                name="activity_main"
+                path="/Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/res/layout-sw480dp/activity_main.xml"
+                qualifiers="sw480dp-v13"
+                type="layout" />
+            <file
+                name="activity_main"
+                path="/Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/res/layout-sw600dp/activity_main.xml"
+                qualifiers="sw600dp-v13"
+                type="layout" />
+            <file
+                name="activity_main"
+                path="/Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/res/layout-sw720dp/activity_main.xml"
+                qualifiers="sw720dp-v13"
+                type="layout" />
+            <file
+                name="activity_main"
+                path="/Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/res/layout-xlarge/activity_main.xml"
+                qualifiers="xlarge-v4"
+                type="layout" />
+            <file
+                name="activity_main"
+                path="/Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/res/menu/activity_main.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                path="/Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/res/values/strings.xml"
+                qualifiers="" >
+                <string name="viewry" >Ry
+                </string>
+                <string name="editnm" >nm
+                </string>
+                <string name="editry" >Ry
+                </string>
+                <string name="convBtn" >Conv
+                </string>
+                <string name="decBtn" >-
+                </string>
+                <string name="edithz" >THz
+                </string>
+                <string name="viewhz" >THz
+                </string>
+                <string name="editJ" >J
+                </string>
+                <string name="editK" >K
+                </string>
+                <string name="menuabout" >About
+                </string>
+                <string name="resetBtn" >Reset
+                </string>
+                <string name="editwn" >1/cm
+                </string>
+                <string name="viewnm" >nm
+                </string>
+                <string name="vieweV" >eV
+                </string>
+                <string name="incBtn" >+
+                </string>
+                <string name="viewK" >K
+                </string>
+                <string name="app_name" >EnerCalc
+                </string>
+                <string name="viewJ" >J
+                </string>
+                <string name="editinc" >Increment
+                </string>
+                <string name="viewwn" >1/cm
+                </string>
+                <string name="editeV" >eV
+                </string>
+                <string name="menu_settings" >Settings
+                </string>
+            </file>
+            <file
+                path="/Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/res/values/styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Material.Light" >
+
+                    <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+                    -->
+                </style>
+
+                <style
+                    name="AppTheme"
+                    parent="AppBaseTheme" >
+
+                    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+                </style>
+            </file>
+            <file
+                path="/Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/res/values-it/strings.xml"
+                qualifiers="it" >
+                <string name="decBtn" >-
+                </string>
+                <string name="viewJ" >J
+                </string>
+                <string name="editeV" >eV
+                </string>
+                <string name="viewnm" >nm
+                </string>
+                <string name="editnm" >nm
+                </string>
+                <string name="viewK" >K
+                </string>
+                <string name="viewry" >Ry
+                </string>
+                <string name="menuabout" >Info
+                </string>
+                <string name="menu_settings" >Settaggi
+                </string>
+                <string name="vieweV" >eV
+                </string>
+                <string name="app_name" >Enercalc
+                </string>
+                <string name="editinc" >Incremento
+                </string>
+                <string name="editry" >Ry
+                </string>
+                <string name="editwn" >1/cm
+                </string>
+                <string name="incBtn" >+
+                </string>
+                <string name="convBtn" >Converti
+                </string>
+                <string name="editJ" >J
+                </string>
+                <string name="resetBtn" >Resetta
+                </string>
+                <string name="editK" >K
+                </string>
+                <string name="edithz" >THz
+                </string>
+                <string name="viewhz" >THz
+                </string>
+                <string name="viewwn" >1/cm
+                </string>
+            </file>
+            <file
+                path="/Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/res/values-v11/styles.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light" >
+
+                    <!-- API 11 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                path="/Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/res/values-v14/styles.xml"
+                qualifiers="v14" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo" >
+
+                    <!-- API 14 theme customizations can go here. -->
+                </style>
+            </file>
+        </source>
+        <source path="/Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/build/generated/res/rs/release" />
+        <source path="/Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/build/generated/res/generated/release" />
+    </dataSet>
+    <dataSet config="release" >
+        <source path="/Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/build-types/release/res" />
+    </dataSet>
+
+</merger>

@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">Enercalc</string>
+    <string name="convBtn">Converti</string>
+    <string name="editinc">Incremento</string>
+    <string name="menu_settings">Settaggi</string>
+    <string name="menuabout">Info</string>
+    <string name="resetBtn">Resetta</string>
+
+</resources>

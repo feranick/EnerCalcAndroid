@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+	 
+    <item
+        android:id="@+id/menuabout"
+        android:title="@string/menuabout"/>
+    
+	
+</menu><!-- From: file:/Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/res/menu/activity_main.xml -->

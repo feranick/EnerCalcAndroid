@@ -84,7 +84,8 @@
         android:layout_alignBaseline="@+id/editry"
         android:layout_alignBottom="@+id/editry"
         android:layout_alignLeft="@+id/viewnm"
-        android:text="@string/viewry" />
+        android:text="@string/viewry"
+        android:elevation="5dp"/>
     
     <TextView
         android:id="@+id/viewhz"
@@ -93,7 +94,8 @@
         android:layout_alignBaseline="@+id/edithz"
         android:layout_alignBottom="@+id/edithz"
         android:layout_alignLeft="@+id/viewnm"
-        android:text="@string/viewhz" />
+        android:text="@string/viewhz"
+        android:elevation="5dp"/>
 
     <TextView
         android:id="@+id/viewnm"
@@ -102,7 +104,8 @@
         android:layout_alignBaseline="@+id/editnm"
         android:layout_alignBottom="@+id/editnm"
         android:layout_alignLeft="@+id/viewwn"
-        android:text="@string/viewnm" />
+        android:text="@string/viewnm"
+        android:elevation="5dp"/>
 
     <TextView
         android:id="@+id/viewwn"
@@ -111,7 +114,8 @@
         android:layout_alignBaseline="@+id/editwn"
         android:layout_alignBottom="@+id/editwn"
         android:layout_alignLeft="@+id/vieweV"
-        android:text="@string/viewwn" />
+        android:text="@string/viewwn"
+        android:elevation="5dp"/>
 
     <TextView
         android:id="@+id/viewK"
@@ -120,7 +124,8 @@
         android:layout_alignBaseline="@+id/editK"
         android:layout_alignBottom="@+id/editK"
         android:layout_alignLeft="@+id/viewwn"
-        android:text="@string/viewK" />
+        android:text="@string/viewK"
+        android:elevation="5dp"/>
 
     <TextView
         android:id="@+id/viewJ"
@@ -129,7 +134,8 @@
         android:layout_alignBaseline="@+id/editJ"
         android:layout_alignBottom="@+id/editJ"
         android:layout_toRightOf="@+id/editJ"
-        android:text="@string/viewJ" />
+        android:text="@string/viewJ"
+        android:elevation="5dp"/>
 
     <TextView
         android:id="@+id/vieweV"
@@ -138,7 +144,8 @@
         android:layout_alignBaseline="@+id/editeV"
         android:layout_alignBottom="@+id/editeV"
         android:layout_alignLeft="@+id/viewJ"
-        android:text="@string/vieweV" />
+        android:text="@string/vieweV"
+        android:elevation="5dp"/>
 
     <Button
         android:id="@+id/convBtn"
