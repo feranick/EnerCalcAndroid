@@ -97,13 +97,13 @@
                 </string>
                 <string name="viewnm" >nm
                 </string>
-                <string name="vieweV" >eV
-                </string>
                 <string name="incBtn" >+
                 </string>
-                <string name="viewK" >K
+                <string name="vieweV" >eV
                 </string>
                 <string name="app_name" >EnerCalc
+                </string>
+                <string name="viewK" >K
                 </string>
                 <string name="viewJ" >J
                 </string>
@@ -163,9 +163,9 @@
                 </string>
                 <string name="app_name" >Enercalc
                 </string>
-                <string name="editinc" >Incremento
-                </string>
                 <string name="editry" >Ry
+                </string>
+                <string name="editinc" >Incremento
                 </string>
                 <string name="editwn" >1/cm
                 </string>
@@ -173,15 +173,15 @@
                 </string>
                 <string name="convBtn" >Converti
                 </string>
-                <string name="editJ" >J
-                </string>
                 <string name="resetBtn" >Resetta
                 </string>
-                <string name="editK" >K
+                <string name="editJ" >J
+                </string>
+                <string name="viewhz" >THz
                 </string>
                 <string name="edithz" >THz
                 </string>
-                <string name="viewhz" >THz
+                <string name="editK" >K
                 </string>
                 <string name="viewwn" >1/cm
                 </string>
