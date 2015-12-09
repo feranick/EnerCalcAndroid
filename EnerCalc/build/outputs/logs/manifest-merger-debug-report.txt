@@ -6,7 +6,7 @@ ADDED from /Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/AndroidMan
 	package
 		ADDED from /Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/AndroidManifest.xml:3:5-32
 	android:versionName
-		ADDED from /Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/AndroidManifest.xml:5:5-39
+		ADDED from /Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/AndroidManifest.xml:5:5-41
 		INJECTED from /Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/AndroidManifest.xml
 		INJECTED from /Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/AndroidManifest.xml
 	android:versionCode

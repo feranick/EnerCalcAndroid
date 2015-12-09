@@ -175,8 +175,8 @@
         android:onClick="dec"
         android:text="@string/decBtn"
         android:layout_alignTop="@+id/incBtn"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_toLeftOf="@+id/incBtn"
+        android:layout_toStartOf="@+id/incBtn" />
 
     <EditText
         android:id="@+id/editinc"
@@ -186,12 +186,9 @@
         android:hint="@string/editinc"
         android:inputType="numberDecimal"
         android:onClick="clearfield"
-        android:layout_marginRight="80dp"
-        android:layout_marginEnd="80dp"
-        android:layout_alignBaseline="@+id/incBtn"
-        android:layout_alignBottom="@+id/incBtn"
-        android:layout_toLeftOf="@+id/incBtn"
-        android:layout_toStartOf="@+id/incBtn">
+        android:layout_alignTop="@+id/decBtn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
 
         <requestFocus />
     </EditText>
