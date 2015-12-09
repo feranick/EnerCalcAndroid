@@ -144,49 +144,52 @@
         android:id="@+id/convBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_below="@+id/editry"
         android:onClick="convert"
-        android:text="@string/convBtn" />
+        android:text="@string/convBtn"
+        android:layout_above="@+id/editwn"
+        android:layout_alignLeft="@+id/resetBtn"
+        android:layout_alignStart="@+id/resetBtn" />
 
     <Button
         android:id="@+id/decBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
         android:onClick="dec"
-        android:text="@string/decBtn" />
+        android:text="@string/decBtn"
+        android:layout_below="@+id/viewJ"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
     <EditText
         android:id="@+id/editinc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:layout_below="@+id/resetBtn"
-        android:layout_toRightOf="@+id/incBtn"
         android:ems="10"
         android:hint="@string/editinc"
         android:inputType="numberDecimal"
-        android:onClick="clearfield" />
+        android:onClick="clearfield"
+        android:layout_below="@+id/decBtn"
+        android:layout_alignRight="@+id/convBtn"
+        android:layout_alignEnd="@+id/convBtn" />
 
     <Button
         android:id="@+id/incBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_toRightOf="@+id/decBtn"
         android:onClick="inc"
-        android:text="@string/incBtn" />
+        android:text="@string/incBtn"
+        android:layout_above="@+id/decBtn"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
     <Button
         android:id="@+id/resetBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/convBtn"
-        android:layout_alignBottom="@+id/convBtn"
-        android:layout_toLeftOf="@+id/viewry"
         android:onClick="reset"
-        android:text="@string/resetBtn" />
+        android:text="@string/resetBtn"
+        android:layout_below="@+id/editeV"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
 </RelativeLayout>
