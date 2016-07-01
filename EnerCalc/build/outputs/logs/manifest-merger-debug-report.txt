@@ -1,8 +1,6 @@
 -- Merging decision tree log ---
 manifest
 ADDED from /Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/AndroidManifest.xml:2:1-33:12
-	xmlns:android
-		ADDED from /Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/AndroidManifest.xml:2:11-69
 	package
 		ADDED from /Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/AndroidManifest.xml:3:5-32
 	android:versionName
@@ -13,6 +11,8 @@ ADDED from /Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/AndroidMan
 		ADDED from /Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/AndroidManifest.xml:4:5-29
 		INJECTED from /Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/AndroidManifest.xml
 		INJECTED from /Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/AndroidManifest.xml:2:11-69
 uses-sdk
 ADDED from /Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/AndroidManifest.xml:7:5-9:41
 	android:targetSdkVersion
