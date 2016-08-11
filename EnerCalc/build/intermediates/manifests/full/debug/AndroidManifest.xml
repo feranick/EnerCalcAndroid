@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="feranick.enercalc"
-    android:versionCode="26"
-    android:versionName="1.8-20160701" >
+    android:versionCode="27"
+    android:versionName="1.9-20160810" >
 
     <uses-sdk
         android:minSdkVersion="11"
         android:targetSdkVersion="24" />
+
+    <!--
+         Some Chromebooks don't support touch. Although not essential,
+         it's a good idea to explicitly include this declaration.
+    -->
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        required="false" />
 
     <application
         android:allowBackup="true"

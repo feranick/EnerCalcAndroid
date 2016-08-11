@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/AndroidManifest.xml:2:1-33:12
+ADDED from /Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/AndroidManifest.xml:2:1-37:12
 	package
 		ADDED from /Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/AndroidManifest.xml:3:5-32
 	android:versionName
@@ -57,3 +57,9 @@ category#android.intent.category.LAUNCHER
 ADDED from /Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/AndroidManifest.xml:27:17-77
 	android:name
 		ADDED from /Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/AndroidManifest.xml:27:27-74
+uses-feature#android.hardware.touchscreen
+ADDED from /Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/AndroidManifest.xml:35:5-36:28
+	android:name
+		ADDED from /Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/AndroidManifest.xml:35:19-62
+	required
+		ADDED from /Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/AndroidManifest.xml:36:9-25
