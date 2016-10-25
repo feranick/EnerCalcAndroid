@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="feranick.enercalc"
-    android:versionCode="28"
-    android:versionName="1.9-20160811" >
+    android:versionCode="29"
+    android:versionName="2.0-20161025" >
 
     <uses-sdk
         android:minSdkVersion="11"
-        android:targetSdkVersion="24" />
+        android:targetSdkVersion="25" />
 
     <!--
          Some Chromebooks don't support touch. Although not essential,
