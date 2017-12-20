@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="feranick.enercalc"
-    android:versionCode="31"
-    android:versionName="2.0-20161025" >
+    android:versionCode="32"
+    android:versionName="2.1-20171219" >
 
     <uses-sdk
         android:minSdkVersion="11"
-        android:targetSdkVersion="25" />
+        android:targetSdkVersion="27" />
 
     <application
         android:allowBackup="true"

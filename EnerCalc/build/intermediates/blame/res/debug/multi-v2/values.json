@@ -1,0 +1,45 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "map": [
+                {
+                    "source": "/Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/res/values/strings.xml",
+                    "from": {
+                        "startLines": "3,15,22,5,9,7,17,23,13,19,11,21,4,24,16,6,10,8,18,14,20,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,1,4,4,4,4,4,4,4,4",
+                        "startOffsets": "56,529,804,153,301,225,613,841,453,691,373,767,102,884,570,189,337,263,652,491,729,413",
+                        "endColumns": "45,40,36,35,35,37,38,45,37,37,39,36,50,40,42,35,35,37,38,37,37,39",
+                        "endOffsets": "97,565,836,184,332,258,647,882,486,724,408,799,148,923,608,220,368,296,686,524,762,448"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,101,142,179,215,251,289,328,374,412,450,490,527,578,622,665,701,737,775,814,852,890",
+                        "endColumns": "45,40,36,35,35,37,38,45,37,37,39,36,50,43,42,35,35,37,38,37,37,39",
+                        "endOffsets": "96,137,174,210,246,284,323,369,407,445,485,522,573,617,660,696,732,770,809,847,885,925"
+                    }
+                },
+                {
+                    "source": "/Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/res/values/styles.xml",
+                    "from": {
+                        "startLines": "6,15",
+                        "startColumns": "4,4",
+                        "startOffsets": "186,519",
+                        "endLines": "12,17",
+                        "endColumns": "12,12",
+                        "endOffsets": "481,674"
+                    },
+                    "to": {
+                        "startLines": "24,31",
+                        "startColumns": "4,4",
+                        "startOffsets": "930,1230",
+                        "endLines": "30,33",
+                        "endColumns": "12,12",
+                        "endOffsets": "1225,1385"
+                    }
+                }
+            ]
+        }
+    ]
+}

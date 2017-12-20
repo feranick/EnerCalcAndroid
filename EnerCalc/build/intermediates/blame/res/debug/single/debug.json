@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "/Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher.png.flat",
+        "source": "/Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/res/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/build/intermediates/res/merged/debug/layout-large_activity_main.xml.flat",
+        "source": "/Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/res/layout-large/activity_main.xml"
+    },
+    {
+        "merged": "/Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/build/intermediates/res/merged/debug/layout-sw720dp_activity_main.xml.flat",
+        "source": "/Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/res/layout-sw720dp/activity_main.xml"
+    },
+    {
+        "merged": "/Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/build/intermediates/res/merged/debug/layout-xlarge_activity_main.xml.flat",
+        "source": "/Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/res/layout-xlarge/activity_main.xml"
+    },
+    {
+        "merged": "/Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/build/intermediates/res/merged/debug/layout-sw480dp_activity_main.xml.flat",
+        "source": "/Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/res/layout-sw480dp/activity_main.xml"
+    },
+    {
+        "merged": "/Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/build/intermediates/res/merged/debug/xml_searchable.xml.flat",
+        "source": "/Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/res/xml/searchable.xml"
+    },
+    {
+        "merged": "/Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/build/intermediates/res/merged/debug/menu_activity_main.xml.flat",
+        "source": "/Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/res/menu/activity_main.xml"
+    },
+    {
+        "merged": "/Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/res/drawable-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/build/intermediates/res/merged/debug/layout-normal_activity_main.xml.flat",
+        "source": "/Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/res/layout-normal/activity_main.xml"
+    },
+    {
+        "merged": "/Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/build/intermediates/res/merged/debug/layout-sw600dp_activity_main.xml.flat",
+        "source": "/Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/res/layout-sw600dp/activity_main.xml"
+    },
+    {
+        "merged": "/Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/res/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher.png.flat",
+        "source": "/Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/build/intermediates/res/merged/debug/drawable-ldpi_ic_launcher.png.flat",
+        "source": "/Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/res/drawable-ldpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/build/intermediates/res/merged/debug/layout-small_activity_main.xml.flat",
+        "source": "/Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/res/layout-small/activity_main.xml"
+    }
+]
