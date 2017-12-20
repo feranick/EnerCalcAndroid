@@ -23,47 +23,47 @@ ADDED from /Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/AndroidMan
 		ADDED from /Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/AndroidManifest.xml:9:9-38
 	android:minSdkVersion
 		ADDED from /Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/AndroidManifest.xml:8:9-35
-application
-ADDED from /Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/AndroidManifest.xml:11:5-31:19
-	android:label
-		ADDED from /Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/AndroidManifest.xml:14:9-41
-	android:icon
-		ADDED from /Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/AndroidManifest.xml:13:9-45
-	android:allowBackup
-		ADDED from /Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/AndroidManifest.xml:12:9-35
-	android:theme
-		ADDED from /Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/AndroidManifest.xml:15:9-40
-activity#feranick.enercalc.MainActivity
-ADDED from /Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/AndroidManifest.xml:16:9-29:20
-	android:label
-		ADDED from /Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/AndroidManifest.xml:18:13-45
-	android:name
-		ADDED from /Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/AndroidManifest.xml:17:13-58
-intent-filter#android.intent.action.SEARCH
-ADDED from /Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/AndroidManifest.xml:19:13-21:29
-action#android.intent.action.SEARCH
-ADDED from /Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/AndroidManifest.xml:20:17-71
-	android:name
-		ADDED from /Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/AndroidManifest.xml:20:25-68
-meta-data#android.app.searchable
-ADDED from /Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/AndroidManifest.xml:22:13-23:53
-	android:resource
-		ADDED from /Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/AndroidManifest.xml:23:17-51
-	android:name
-		ADDED from /Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/AndroidManifest.xml:22:24-61
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/AndroidManifest.xml:24:13-28:29
-action#android.intent.action.MAIN
-ADDED from /Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/AndroidManifest.xml:25:17-69
-	android:name
-		ADDED from /Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/AndroidManifest.xml:25:25-66
-category#android.intent.category.LAUNCHER
-ADDED from /Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/AndroidManifest.xml:27:17-77
-	android:name
-		ADDED from /Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/AndroidManifest.xml:27:27-74
 uses-feature#android.hardware.touchscreen
-ADDED from /Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/AndroidManifest.xml:35:5-36:28
-	required
-		ADDED from /Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/AndroidManifest.xml:36:9-25
+ADDED from /Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/AndroidManifest.xml:13:5-14:36
+	android:required
+		ADDED from /Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/AndroidManifest.xml:14:9-33
 	android:name
-		ADDED from /Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/AndroidManifest.xml:35:19-62
+		ADDED from /Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/AndroidManifest.xml:13:19-62
+application
+ADDED from /Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/AndroidManifest.xml:16:5-36:19
+	android:label
+		ADDED from /Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/AndroidManifest.xml:19:9-41
+	android:icon
+		ADDED from /Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/AndroidManifest.xml:18:9-45
+	android:allowBackup
+		ADDED from /Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/AndroidManifest.xml:17:9-35
+	android:theme
+		ADDED from /Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/AndroidManifest.xml:20:9-40
+activity#feranick.enercalc.MainActivity
+ADDED from /Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/AndroidManifest.xml:21:9-34:20
+	android:label
+		ADDED from /Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/AndroidManifest.xml:23:13-45
+	android:name
+		ADDED from /Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/AndroidManifest.xml:22:13-58
+intent-filter#android.intent.action.SEARCH
+ADDED from /Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/AndroidManifest.xml:24:13-26:29
+action#android.intent.action.SEARCH
+ADDED from /Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/AndroidManifest.xml:25:17-71
+	android:name
+		ADDED from /Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/AndroidManifest.xml:25:25-68
+meta-data#android.app.searchable
+ADDED from /Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/AndroidManifest.xml:27:13-28:53
+	android:resource
+		ADDED from /Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/AndroidManifest.xml:28:17-51
+	android:name
+		ADDED from /Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/AndroidManifest.xml:27:24-61
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/AndroidManifest.xml:29:13-33:29
+action#android.intent.action.MAIN
+ADDED from /Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/AndroidManifest.xml:30:17-69
+	android:name
+		ADDED from /Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/AndroidManifest.xml:30:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/AndroidManifest.xml:32:17-77
+	android:name
+		ADDED from /Users/feranick/Documents/Work/c/Android/EnerCalc/EnerCalc/AndroidManifest.xml:32:27-74

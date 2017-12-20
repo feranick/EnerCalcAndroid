@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="feranick.enercalc"
-    android:versionCode="32"
-    android:versionName="2.1-20171219" >
+    android:versionCode="33"
+    android:versionName="2.3-20171220" >
 
     <uses-sdk
         android:minSdkVersion="11"
@@ -14,7 +14,7 @@
     -->
     <uses-feature
         android:name="android.hardware.touchscreen"
-        required="false" />
+        android:required="false" />
 
     <application
         android:allowBackup="true"

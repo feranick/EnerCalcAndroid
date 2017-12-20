@@ -13,7 +13,7 @@ import android.widget.Toast;
 
 public class MainActivity extends Activity {
 
-	static final String version = "EnerCalc - v. 2.0-20161025";
+	static final String version = "EnerCalc - v. 2.3-20171220";
 	static final double a=11604;
 	static final double b=8065.54;
 	static final double c=1.6021773e-19;
@@ -209,25 +209,25 @@ public class MainActivity extends Activity {
 		
 		if(editeV.hasFocus())
 			{editeV.setText("");
-			editinc.setText("0.1");}
+			editinc.setText(String.format("%.0f",0.1));}
 		if(editwn.hasFocus())
 			{editwn.setText("");
-			editinc.setText("100");}
+			editinc.setText(String.format("%d",100));}
 		if(editnm.hasFocus())
 			{editnm.setText("");
-			editinc.setText("50");}
+			editinc.setText(String.format("%.d",50));}
 		if(editJ.hasFocus())
 			{editJ.setText("");
-			editinc.setText("0.1e-19");}
+			editinc.setText(String.format("%.0f",0.1e-19));}
 		if(editK.hasFocus())
 			{editK.setText("");
-			editinc.setText("100");}
+			editinc.setText(String.format("%d",100));}
 		if(edithz.hasFocus())
 			{edithz.setText("");
-			editinc.setText("100");}
+			editinc.setText(String.format("%d",100));}
 		if(editry.hasFocus())
 			{editry.setText("");
-			editinc.setText("0.01");}
+			editinc.setText(String.format("%.0f", 0.01));}
 	}
 	
 	public void change(View view, double incr) {
