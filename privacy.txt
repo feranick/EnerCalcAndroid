@@ -1,0 +1,1 @@
+EnerCalc for Android does not store any personal information that the user might have typed in the app. EnerCalc does not use of any hardware features in your phone (camera, microphone, speakers) nor it needs to access any of your storage, both local and cloud-based. 
