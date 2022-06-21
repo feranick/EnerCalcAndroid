@@ -1,16 +1,16 @@
 buildscript {
     repositories {
-        jcenter()
+        mavenCentral()
         maven {
             url 'https://maven.google.com/'
             name 'Google'
         }
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:7.2.0'
+        classpath 'com.android.tools.build:gradle:7.2.1'
     }
 }
-apply plugin: 'android'
+apply plugin: 'com.android.application'
 
 dependencies {
     //compile fileTree(dir: 'libs', include: '*.jar')
@@ -23,9 +23,9 @@ android {
     defaultConfig {
         applicationId "feranick.enercalc"
         minSdkVersion 28    // This over here
-        targetSdkVersion 30
-        versionCode 37
-        versionName "2.6-20220510"
+        targetSdkVersion 32
+        versionCode 39
+        versionName "2.7-20220621"
     }
 
     sourceSets {
@@ -58,5 +58,5 @@ repositories {
         url 'https://maven.google.com/'
         name 'Google'
     }
-    jcenter()
+    mavenCentral()
 }
