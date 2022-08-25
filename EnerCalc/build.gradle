@@ -7,7 +7,7 @@ buildscript {
         }
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:7.2.1'
+        classpath 'com.android.tools.build:gradle:7.2.2'
     }
 }
 apply plugin: 'com.android.application'
@@ -18,14 +18,14 @@ dependencies {
 }
 
 android {
-    compileSdkVersion 32
+    compileSdkVersion 33
 
     defaultConfig {
         applicationId "feranick.enercalc"
         minSdkVersion 28    // This over here
-        targetSdkVersion 32
-        versionCode 39
-        versionName "2.7-20220621"
+        targetSdkVersion 33
+        versionCode 41
+        versionName "2.7.2-20220825"
     }
 
     sourceSets {
