@@ -1,3 +1,9 @@
+Version 2.9-20240906
+——————————————————————
+Added support for Android 15
+Updated gradle to v8.6 
+
+
 Version 2.8-20240308
 ——————————————————————
 Added support for Android 14

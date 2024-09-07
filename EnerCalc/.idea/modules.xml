@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/EnerCalc.iml" filepath="$PROJECT_DIR$/.idea/EnerCalc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/EnerCalc.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/EnerCalc.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/EnerCalc.main.iml" filepath="$PROJECT_DIR$/.idea/modules/EnerCalc.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/EnerCalc.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/EnerCalc.unitTest.iml" />
+    </modules>
+  </component>
+</project>

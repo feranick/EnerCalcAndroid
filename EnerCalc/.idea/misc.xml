@@ -1,0 +1,11 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="res/layout-sw480dp/activity_main.xml" value="0.74125" />
+        <entry key="res/menu/activity_main.xml" value="0.30885416666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK" />
+</project>

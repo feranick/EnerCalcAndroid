@@ -3,4 +3,4 @@ EnerCalcAndroid
 
 Energy Calculator for Android
 
-APK can be built using Android Studio 2021.2.1
+APK can be built using Android Studio 2024.1.2
